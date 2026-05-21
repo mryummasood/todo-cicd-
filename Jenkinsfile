@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = "mryum/todo-app"
+        DOCKER_IMAGE = "mryummasood/todo-app"
         DOCKER_TAG   = "latest"
         REGISTRY_CREDS = credentials('dockerhub-creds')
     }
